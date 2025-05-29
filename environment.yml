@@ -2,11 +2,9 @@ name: concert_predictor
 channels:
   - conda-forge
 dependencies:
-  - python=3.9        # fuerza Python 3.9 para compatibilidad con tus pickles
-  - scikit-learn=1.0.2
+  - python=3.9             # Fuerza Python 3.9
+  - streamlit=1.45.1       # Instalado desde conda-forge
+  - pandas=1.3.5
   - numpy=1.21.6
   - scipy=1.7.3
-  - pandas=1.3.5
-  - pip
-  - pip:
-    - streamlit==1.45.1
+  - scikit-learn=1.0.2
